@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Pages from './pages';
 
 class Routers extends Component {
@@ -8,7 +8,8 @@ class Routers extends Component {
     return (
       <Router>
         <Switch>
-          <Route exact path="/login" component={Pages.Login}/>
+          <Route exact path="/" component={Pages.Home} />
+          <Route exact path="/login" component={Pages.Login} />
         </Switch>
       </Router>
     );

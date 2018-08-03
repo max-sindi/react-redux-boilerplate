@@ -1,5 +1,7 @@
-import LoginPage from './LoginPage';
+import Login from './LoginPage';
+import Home from './Home';
 
 export default {
-  LoginPage
+  Login,
+  Home,
 }

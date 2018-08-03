@@ -3,8 +3,9 @@ import React, { Component } from 'react';
 class LoginPage extends Component {
 
   render() {
+    debugger
     return (
-      <div>LoginPage</div>
+      <div>LogindasdasPage</div>
     );
   }
 
