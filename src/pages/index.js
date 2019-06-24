@@ -1,7 +1,7 @@
-import Login from './LoginPage';
-import Home from './Home';
+import Home from './Home'
+import NotFound404 from './NotFound404'
 
 export default {
-  Login,
   Home,
+  NotFound404,
 }
